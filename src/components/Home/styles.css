@@ -1,16 +1,20 @@
-.blog-preview {
+.post-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
   transition: .3s all;
 }
 
-.blog-preview:hover {
+.post-preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.blog-preview h2 {
+.post-preview h2 {
   font-size: 20px;
   color: var(--pink-500);
   margin-bottom: 8px;
+}
+
+.post-preview a {
+  text-decoration: none;
 }
