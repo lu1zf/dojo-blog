@@ -1,0 +1,9 @@
+.post-details h2 {
+  font-size: 20px;
+  color: var(--pink-500);
+  margin-bottom: 10px;
+}
+
+.post-details div {
+  margin: 20px 0;
+}
