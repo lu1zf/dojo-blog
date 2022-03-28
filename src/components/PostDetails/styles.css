@@ -7,3 +7,12 @@
 .post-details div {
   margin: 20px 0;
 }
+
+.post-details button {
+  background: var(--pink-500);
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
