@@ -1,7 +1,17 @@
+import useFetch from "../../hooks/useFetch";
+import PostList from "../PostList";
+
+import './styles.css';
+
 const Home = () => {
+
+  const { data: posts, isPending, error } = useFetch('http://localhost:8000/posts');
+
   return (
     <div className="home">
-      <h2>Homepage</h2>
+      {error && <div>{error}</div>}
+      {isPending && <div>Loading...</div>}
+      {posts && <PostList posts={posts} title="All posts" />}
     </div>
   );
 }
