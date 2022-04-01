@@ -1,6 +1,7 @@
 # The dojo blog
 
-This project was made with the object of apply and fixate my concepts of React.\ 
+This project was made with the objective of apply and fixate my concepts of React.
+
 The dojo blog is a simple minimalist blog that displays, create, edit and delete posts.
 
 ## To run this project
